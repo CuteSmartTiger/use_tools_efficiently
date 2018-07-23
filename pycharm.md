@@ -1,4 +1,4 @@
-###常用高频快捷键
+### 常用高频快捷键
 ```
 快捷键	               功能
 Ctrl + B/鼠标左键	    转到方法定义处
@@ -19,9 +19,11 @@ Ctrl + Numpad+/-	    展开或折叠代码块
 Ctrl + Numpad+	      当前函数或类展开
 Ctrl + Numpad-	      当前函数或类全部折叠
 
-Ctrl + F1	   显示错误描述或警告信息
+Ctrl + F1	            显示错误描述或警告信息
 
-Ctr + Shift + Numpad + +/-    全部类或函数展开或者折叠
+Ctr + Shift + Numpad+/-    全部类或函数展开或者折叠
+
+Ctr + Shift + F4       关闭死循环
 ```
 
 
@@ -53,7 +55,7 @@ F12	回到先前的工具窗口
 ```
 
 
-####全部快捷键
+#### 全部快捷键
 - 1、编辑（Editing）
 ```
 快捷键	功能
@@ -127,36 +129,36 @@ Ctrl + Shift + F8	查看断点
 ```
 - 5、导航(Navigation)
 ```
-快捷键	功能	 
-Ctrl + N	跳转到类	 
-Ctrl + Shift + N	跳转到符号	 
-Alt + Right/Left	跳转到下一个、前一个编辑的选项卡	 
-F12	回到先前的工具窗口	 
-Esc	从其他窗口回到编辑窗口	 
-Shift + Esc	隐藏当前窗口，焦点到编辑窗口	 
-Ctrl + Shift + F4	关闭主动运行的选项卡	 
-Ctrl + G	查看当前行号、字符号	 
-Ctrl + E	最近访问的文件	 
-Ctrl+Alt+Left/Right	后退、前进	 
-Ctrl+Shift+Backspace	导航到最近编辑区域	 
-Alt + F1	查找当前文件或标识	 
-Ctrl+B / Ctrl+Click	跳转到声明	 
-Ctrl + Alt + B	跳转到实现	 
-Ctrl + Shift + I	查看快速定义	 
-Ctrl + Shift + B	跳转到类型声明	 
-Ctrl + U	跳转到父方法、父类	 
-Alt + Up/Down	跳转到上一个、下一个方法	 
-Ctrl + ]/[	跳转到代码块结束、开始	 
-Ctrl + F12	弹出文件结构	 
-Ctrl + H	类型层次结构	 
-Ctrl + Shift + H	方法层次结构	 
-Ctrl + Alt + H	调用层次结构	 
-F2 / Shift + F2	下一条、前一条高亮的错误	 
-F4 / Ctrl + Enter	编辑资源、查看资源	 
-Alt + Home	显示导航条F11书签开关	 
-Ctrl + Shift +F11	书签助记开关	 
+快捷键	功能
+Ctrl + N	跳转到类
+Ctrl + Shift + N	跳转到符号
+Alt + Right/Left	跳转到下一个、前一个编辑的选项卡
+F12	回到先前的工具窗口
+Esc	从其他窗口回到编辑窗口
+Shift + Esc	隐藏当前窗口，焦点到编辑窗口
+Ctrl + Shift + F4	关闭主动运行的选项卡
+Ctrl + G	查看当前行号、字符号
+Ctrl + E	最近访问的文件
+Ctrl+Alt+Left/Right	后退、前进
+Ctrl+Shift+Backspace	导航到最近编辑区域
+Alt + F1	查找当前文件或标识
+Ctrl+B / Ctrl+Click	跳转到声明
+Ctrl + Alt + B	跳转到实现
+Ctrl + Shift + I	查看快速定义
+Ctrl + Shift + B	跳转到类型声明
+Ctrl + U	跳转到父方法、父类
+Alt + Up/Down	跳转到上一个、下一个方法
+Ctrl + ]/[	跳转到代码块结束、开始
+Ctrl + F12	弹出文件结构
+Ctrl + H	类型层次结构
+Ctrl + Shift + H	方法层次结构
+Ctrl + Alt + H	调用层次结构
+F2 / Shift + F2	下一条、前一条高亮的错误
+F4 / Ctrl + Enter	编辑资源、查看资源
+Alt + Home	显示导航条F11书签开关
+Ctrl + Shift +F11	书签助记开关
 Ctrl #[0-9]	+	跳转到标识的书签
-Shift +	F11显示书签	 
+Shift +	F11显示书签
 ```
 - 6、搜索相关(Usage Search)
 ```

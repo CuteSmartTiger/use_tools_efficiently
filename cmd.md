@@ -1,4 +1,4 @@
-####Windows cmd
+#### Windows cmd
 python 中的清屏
 ```
 import os
@@ -13,10 +13,10 @@ q                退出
 ```
 
 
-####linux
+#### linux
 
 
 
 
 
-####docker
+#### docker

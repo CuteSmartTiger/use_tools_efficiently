@@ -24,6 +24,7 @@ how to use markdown
 ```
 
 - 2.使用#,从上到下为从大到小的标题
+
 ```
 #  h1
 ##  h2
@@ -109,7 +110,7 @@ capslock+``` ```
 
 效果：
 
-max_liuhu的Markdown1  
+max_liuhu的Markdown1
 max_liuhu的Markdown2
 ```
 
