@@ -7,12 +7,13 @@ Ctrl + U             跳转到父类 父方法
 
 
 Ctrl + D	           复制选定的区域或行到后面或下一行
-Ctrl + Y	           删除当前行
+Ctrl + Y	           删除当前行，不复制到剪切板
+Ctrl + x	           切剪当前行
 Ctrl + /	           行注释
 Ctrl + Alt + L	     代码格式化
 
 
-Ctrl + Alt + I	     自动缩进
+Ctrl + Alt + I	      自动缩进
 Tab / Shift + Tab	    缩进、不缩进当前行
 
 Ctrl + Numpad+/-	    展开或折叠代码块
@@ -21,31 +22,27 @@ Ctrl + Numpad-	      当前函数或类全部折叠
 
 Ctrl + F1	            显示错误描述或警告信息
 
-Ctr + Shift + Numpad+/-    全部类或函数展开或者折叠
+Ctr + Shift + Numpad+/-  全部类或函数展开或者折叠
 
-Ctr + Shift + F4       关闭死循环
+Ctr + Shift + F4         关闭死循环
+ctr+Fn+左/右             顶部/底部
+
+Alt + Shift + up/down	   当前行上移或下移动
+Alt + up/down	          方法上移或下移动
+Ctrl + E	               最近访问的文件
 ```
 
-
-
-```
-
-
-Alt + up/down	方法上移或下移动
-Ctrl + E	最近访问的文件
-```
 
 ```
 Ctrl + Alt + O	自动导入
 Ctrl+C/Ctrl+Insert	复制当前行或选定的代码块到剪贴板
-Ctrl + Y	删除当前行
 Shift + Enter	下一行另起一行
 Ctrl +Ｊ	插入模版
 
 Ctrl + Delete	删除到字符结束
 Ctrl + Backspace	删除到字符开始
 Ctrl + Shift + F7	将当前单词在整个文件中高亮，F3移动到下一个，ESC取消高亮。
-Alt + Shift + up/down	当前行上移或下移动
+
 Ctrl + W	选中增加的代码块
 Shift + F6	方法或变量重命名
 Esc	从其他窗口回到编辑窗口
@@ -92,9 +89,6 @@ Shift + Enter	下一行另起一行
 Ctrl + Shift + U	在选定的区域或代码块间切换
 Ctrl + Delete	删除到字符结束
 Ctrl + Backspace	删除到字符开始
-Ctrl + Numpad+/-	展开折叠代码块
-Ctrl + Numpad+	全部展开
-Ctrl + Numpad-	全部折叠
 Ctrl + F4	关闭运行的选项卡
 ```
 - 2、查找/替换(Search/Replace)
@@ -104,7 +98,9 @@ F3	下一个
 Shift + F3	前一个
 Ctrl + R	替换
 Ctrl + Shift + F	全局查找
+Ctrl + R	        当前查找
 Ctrl + Shift + R	全局替换
+
 ```
 - 3、运行(Running)
 ```
