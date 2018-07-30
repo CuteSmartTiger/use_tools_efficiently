@@ -11,7 +11,7 @@ Ctrl + Y	           删除当前行，不复制到剪切板
 Ctrl + x	           切剪当前行
 Ctrl + /	           行注释
 Ctrl + Alt + L	     代码格式化
-Ctrl + Alt + 左/右	  代码格式化
+Ctrl + Alt + 左/右	  前进  或 后退
 
 Ctrl + Alt + I	      自动缩进
 Tab / Shift + Tab	    缩进、不缩进当前行
