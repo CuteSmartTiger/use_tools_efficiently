@@ -11,7 +11,7 @@ Ctrl + Y	           删除当前行，不复制到剪切板
 Ctrl + x	           切剪当前行
 Ctrl + /	           行注释
 Ctrl + Alt + L	     代码格式化
-
+Ctrl + Alt + 左/右	  代码格式化
 
 Ctrl + Alt + I	      自动缩进
 Tab / Shift + Tab	    缩进、不缩进当前行
@@ -30,8 +30,24 @@ ctr+Fn+左/右             顶部/底部
 Alt + Shift + up/down	   当前行上移或下移动
 Alt + up/down	          方法上移或下移动
 Ctrl + E	               最近访问的文件
+
+
+Ctrl + F	           当前查找
+Ctrl + Shift + F	   全局查找
+Ctrl + R	           当前查找
+Ctrl + Shift + R	   全局替换
 ```
 
+
+- 2、查找/替换(Search/Replace)
+```
+快捷键	功能
+F3	下一个
+Shift + F3	前一个
+
+
+
+```
 
 ```
 Ctrl + Alt + O	自动导入
@@ -52,6 +68,7 @@ F12	回到先前的工具窗口
 ```
 
 
+
 #### 全部快捷键
 - 1、编辑（Editing）
 ```
@@ -60,14 +77,13 @@ Ctrl + Space	基本的代码完成（类、方法、属性）
 Ctrl + Alt + Space	快速导入任意类
 Ctrl + Shift + Enter	语句完成
 Ctrl + P	参数信息（在方法中调用参数）
-Ctrl + Q	快速查看文档
 Shift + F1	外部文档
 Ctrl + 鼠标	简介
 Ctrl + F1	显示错误描述或警告信息
 Alt + Insert	自动生成代码
 Ctrl + O	重新方法
 Ctrl + Alt + T	选中
-Ctrl + /	行注释
+
 Ctrl + Shift + /	块注释
 Ctrl + W	选中增加的代码块
 Ctrl + Shift + W	回到之前状态
@@ -81,8 +97,6 @@ Ctrl+X/Shift+Delete	剪切当前行或选定的代码块到剪贴板
 Ctrl+C/Ctrl+Insert	复制当前行或选定的代码块到剪贴板
 Ctrl+V/Shift+Insert	从剪贴板粘贴
 Ctrl + Shift + V	从最近的缓冲区粘贴
-Ctrl + D	复制选定的区域或行到后面或下一行
-Ctrl + Y	删除当前行
 Ctrl + Shift + J	添加智能线
 Ctrl + Enter	智能线切割
 Shift + Enter	下一行另起一行
@@ -91,17 +105,7 @@ Ctrl + Delete	删除到字符结束
 Ctrl + Backspace	删除到字符开始
 Ctrl + F4	关闭运行的选项卡
 ```
-- 2、查找/替换(Search/Replace)
-```
-快捷键	功能
-F3	下一个
-Shift + F3	前一个
-Ctrl + R	替换
-Ctrl + Shift + F	全局查找
-Ctrl + R	        当前查找
-Ctrl + Shift + R	全局替换
 
-```
 - 3、运行(Running)
 ```
 快捷键	功能
@@ -142,7 +146,6 @@ Ctrl+B / Ctrl+Click	跳转到声明
 Ctrl + Alt + B	跳转到实现
 Ctrl + Shift + I	查看快速定义
 Ctrl + Shift + B	跳转到类型声明
-Ctrl + U	跳转到父方法、父类
 Alt + Up/Down	跳转到上一个、下一个方法
 Ctrl + ]/[	跳转到代码块结束、开始
 Ctrl + F12	弹出文件结构
