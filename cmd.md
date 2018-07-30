@@ -11,6 +11,9 @@ os.system('cls')
 q                退出
 
 ```
+
+
+
 ##### Internet
 ```
 ipconfig
@@ -29,14 +32,3 @@ ipconfig
        /showclassid6    显示适配器允许的所有 IPv6 DHCP 类 ID。
        /setclassid6     修改 IPv6 DHCP 类 ID。
 ```
-
-
-## linux
-
-```
-使用table键进行补全
-```
-
-
-
-##  docker
