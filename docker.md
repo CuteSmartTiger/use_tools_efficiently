@@ -1,4 +1,66 @@
 #### docker
+- daocloud 加速器
+```
+执行命令后记得配置文件中删除逗号
+vi /etc/docker/daemon.json
+```
+
+- docker 镜像
+```
+查找相关镜像
+docker search [image_name]
+
+下载镜像
+docker pull [image_name]
+
+查看镜像
+docker images
+
+导出镜像
+docker save [image_name] > [location_name]
+
+导入镜像
+docker load < [location_name]
+
+删除镜像
+docker rmi image_name
+
+```
+
+- docker 容器
+```
+启动镜像并创建出一个运行状态的容器
+docker run -it --name contaioner_name image_name bash
+-it 表示创建后进入容器的交互界面
+--name 表示创建时容器的名称
+
+启动镜像并创建容器时可以映射端口
+docker run -it --name contaioner_name -p 9000:8080 -p 9001:8085 image_name bash
+-p 9000:8080   将容器8080端口映射待宿主机9000端口
+
+启动镜像并创建容器时可以映射容器文件到宿主机
+docker run -it --name contaioner_name -v file_location:contaioner_file_location --privileged image_name bash
+-v  将容器内部目录内容映射到宿主机目录下
+--privileged  赋予最高权限
+
+
+暂停容器
+docker pause contaioner_name
+
+恢复容器
+docker unpause contaioner_name
+
+停止
+docker stop contaioner_name
+
+启动
+docker start -i contaioner_name
+
+删除
+docker rm contaioner_name
+```
+
+
  - 查找docker中文件的路径
   ```
   touch [name]
