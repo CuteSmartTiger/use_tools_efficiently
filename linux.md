@@ -1,3 +1,37 @@
+- 文件操作
+```
+chmod 777 [filename]
+r  4
+w  2
+x  1
+没有权限   0
+```
+- 防火墙管理
+```
+firewall-cmd  查看防火墙
+service firewall start    启动
+service firewall stop     停止
+service firewall restart  重启
+```
+- 端口管理
+```
+开放端口
+firewall-cmd --permanent --add-port=8080-8085/tcp
+
+查看开放的端口
+firewall-cmd --permanent --list-ports
+
+加载端口
+firewall-cmd --reload
+
+删除端口
+firewall-cmd --permanent --remove-port=8080-8085/tcp
+
+查看开启的服务
+firewall-cmd --permanent --list-services
+```
+
+
 ### 网络相关
 
 
