@@ -1,0 +1,1 @@
+-[Linux awk命令详解](http://www.cnblogs.com/ginvip/p/6352157.html)
