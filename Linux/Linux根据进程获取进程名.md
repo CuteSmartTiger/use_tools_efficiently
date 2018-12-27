@@ -1,0 +1,1 @@
+- [linux shell 根据进程名获取pid](https://blog.csdn.net/baidu_33850454/article/details/78568392)
