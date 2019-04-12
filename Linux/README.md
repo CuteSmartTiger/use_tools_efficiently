@@ -4,8 +4,19 @@
 - 查看目录文件方面：
 tree  
 
+
+- [screen 的使用](https://www.ibm.com/developerworks/cn/linux/l-cn-screen/)
+
+
+
+- tee不截流
+
 - 命令补全功能：
 sudo apt-get -y install bash-completion  bash-completion-extras
+
+
+
+
 
 
 
