@@ -7,9 +7,9 @@ nameserver 8.8.4.4
 ```
 
 第一步. 执行命令(卸载vim-common)：
-sudo apt-get remove vim-common
+sudo apt-get remove vim-common -y
 第二步. 执行命令(安装vim)：
-sudo apt-get install vim
+sudo apt-get install vim -y
 
 
 
