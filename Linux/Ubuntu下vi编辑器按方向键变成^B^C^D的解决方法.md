@@ -13,6 +13,10 @@ sudo apt-get install vim -y
 
 
 
+sudo apt-get remove vim-common -y
+sudo apt-get install vim -y
+
+
 
 #### 方法二：
 方法2. 修改/etc/vim/vimrc.tiny文件，将set compatible改成set nocompatible，然后再添加一行set backspace=2即可
