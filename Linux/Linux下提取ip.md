@@ -8,7 +8,8 @@ ip address show dev eth0 | grep inet | grep  eth0 | awk '{ print $2 }'
 
 较好的方法
 
-ip=`ifconfig eth0 |grep 'inet addr' | awk '{print $2}' | sed s/^.*addr://g`
+ip=`ifconfig eth0 |grep 'inet addr' | awk '{print $2}' | sed s/^.*addr://g` && echo ${ip}
+
 sed -n  '12,s/localnode=.*/localnode=${ip}/'p Makefile
 
 
