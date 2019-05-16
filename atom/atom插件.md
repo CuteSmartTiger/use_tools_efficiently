@@ -39,7 +39,7 @@
 #### PDF相关
 - markdown-themeable-pdf   导出的文件有水印
 - pdf-view 查看pdf文件
-- Markdown Pdf 推荐
+- Markdown-pdf 推荐
 
 #### 常用主题
 - Atom 的主题是分为UI主题和语法主题，默认情况下软件已经提供了好几套主题（有暗色调、也有亮色调）供我们使用。
